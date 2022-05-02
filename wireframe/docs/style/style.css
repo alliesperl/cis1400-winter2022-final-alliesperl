@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+    margin: 0px;
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
+    background-color: #F5FFF6;
+    padding: 0px;
+    font-family: optima;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0px;
+    padding: 0px;
+    background-image:url("../images/header.jpg");
+}
+header img {
+	max-height: 50%;
+	max-width: 90%;
+	margin: 0px;
+	padding: 0px;
+}
+.site-identity {
+    margin: 0;
+    padding: 0px 30px;
+    background-color: rgba(255,255,255,0.75);
+    color: rgba(51,86,44,1.00);
+}
+nav {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 10px 0px 10px 0px;
+	background-color: #33562C;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+nav ul {
+	padding: 0;
+	margin: 0 20% 0 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav li {
+    display: block;
+    list-style-type: none;
+}
+nav a {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover {
+	font-weight: 600;
+    color: #fff6f7;
+	text-decoration: line-through;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: line-through;
+}
+#list {
+	text-align: left;
+	width: 185px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	border: 2px solid #d11d26;
+}
+main {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    background-color: #DCF0DE;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #A7CEAB;
+    text-align: center;
+}
+.row {
+	display: flex;
+	margin-bottom: 25px;
+}
+.column.left {
+	flex: 50%;
+	margin-right: 5px;
+	border: 1px solid #33562C;
+}
+.column.right {
+	flex: 50%;
+	margin-left: 5px;
+	border: 1px solid #33562C;
+}
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+	background-color: #33562C;
+    color: white;
+}
